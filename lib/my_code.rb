@@ -20,9 +20,9 @@ def reduce(array, starting=0)
   while counter < array.length do 
     
     sum = yield(array[counter] , sum)
-    sum
+    
     counter += 1
   
   end
-  return false
+  return sum
 end

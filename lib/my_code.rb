@@ -24,5 +24,5 @@ def reduce(array, starting=0)
     counter += 1
   
   end
-  sum
+  return sum
 end

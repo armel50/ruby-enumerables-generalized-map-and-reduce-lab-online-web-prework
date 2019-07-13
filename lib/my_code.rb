@@ -1,6 +1,7 @@
 # Your Code Here
 def map(array)
-  yield()
+  
+  yield
 end
 
 

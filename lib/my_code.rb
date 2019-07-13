@@ -20,5 +20,5 @@ def reduce(array, starting=0)
   while counter < array.length do 
     sum += yield(array[counter],starting)
   end
-  
+  sum
 end

@@ -15,5 +15,9 @@ end
 
 
 def reduce(array, starting=0)
+  counter = 0 
+  sum = 0
+  while counter < array.length do 
+  end
   
 end

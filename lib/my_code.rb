@@ -22,7 +22,10 @@ def reduce(array, starting=0)
     sum = yield(array[counter] , sum)
     
     counter += 1
-  
+    
+  end
+  if sum == nil
+    return false
   end
   return sum
 end

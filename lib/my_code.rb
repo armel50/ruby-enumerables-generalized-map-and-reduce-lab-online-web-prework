@@ -1,7 +1,12 @@
 # Your Code Here
 def map(array)
-  
-  yield(array * 2)
+  counter = 0 
+  newArray = []
+  while counter < array.length do 
+    
+  newArray.push(yield(array[counter]))
+  counter += 1
+end
   
 end
 

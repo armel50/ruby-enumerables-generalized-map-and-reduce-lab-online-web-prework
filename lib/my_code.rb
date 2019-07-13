@@ -14,6 +14,6 @@ end
 
 
 
-def reduce(array, starting)
+def reduce(array, starting=0)
   
 end

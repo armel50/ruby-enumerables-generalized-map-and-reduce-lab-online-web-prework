@@ -16,8 +16,9 @@ end
 
 def reduce(array, starting=0)
   counter = 0 
-  sum = 0
+  sum = starting
   while counter < array.length do 
+    sum += yield(array[counter],starting)
   end
   
 end

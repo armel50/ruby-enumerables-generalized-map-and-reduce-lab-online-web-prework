@@ -7,6 +7,7 @@ def map(array)
   newArray.push(yield(array[counter]))
   counter += 1
 end
+newArray
   
 end
 

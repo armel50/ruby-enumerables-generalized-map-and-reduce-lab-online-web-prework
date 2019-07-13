@@ -1,7 +1,7 @@
 # Your Code Here
 def map(array)
   
-  yield(array)
+  yield(n)
   
 end
 

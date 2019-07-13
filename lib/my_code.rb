@@ -17,12 +17,12 @@ end
 def reduce(array, starting=0)
   counter = 0 
   sum = starting
+  check = true
   while counter < array.length do 
     
-    sum = yield(array[counter])
+    check = yield(array[counter])
   
     counter += 1
-  
   
   end
   sum
